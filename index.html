@@ -3,6 +3,12 @@
 <head>
   <meta charset='utf-8'>
   <title>Happy Birthday Joe!</title>
+  <script>
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+  </script>
   <style>
     body {
       margin: 0;
@@ -15,8 +21,8 @@
       justify-content: center;
 
     }
-    
-    img{
+
+    img {
       max-width: 300px;
       height: 300px;
       flex-basis: 100%;
@@ -26,6 +32,7 @@
       font-size: 4rem;
       flex-basis: 100%;
     }
+
     .rainbow {
       /* Chrome, Safari, Opera */
       -webkit-animation: rainbow 3s infinite;
@@ -118,11 +125,11 @@
 </head>
 
 <body>
-  <audio autoplay>
+  <audio id='audio' autoplay>
     <source src='https://drive.google.com/uc?export=download&amp;id=1lt35o-Siq_8I2kqoBFqoBIeky2fuIAsc'>
   </audio>
   <img src='./INVOKESTATIC.svg' />
-  <h1 class='rainbow'>HAPPY BIRTHDAY JOE!</h1>
+  <h1 onclick="play()" class='rainbow'>HAPPY BIRTHDAY JOE!</h1>
 </body>
 
 </html>
