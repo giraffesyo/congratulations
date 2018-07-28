@@ -3,12 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <title>Happy Birthday Joe!</title>
-  <script>
-    function play() {
-      var audio = document.getElementById("audio");
-      audio.play();
-    }
-  </script>
+
   <style>
     body {
       margin: 0;
@@ -124,12 +119,12 @@
   </style>
 </head>
 
-<body>
+<body onclick='document.getElementById("audio").play()'>
   <audio id='audio' autoplay>
     <source src='https://drive.google.com/uc?export=download&amp;id=1lt35o-Siq_8I2kqoBFqoBIeky2fuIAsc'>
   </audio>
   <img src='./INVOKESTATIC.svg' />
-  <h1 onclick="play()" class='rainbow'>HAPPY BIRTHDAY JOE!</h1>
+  <h1 class='rainbow'>HAPPY BIRTHDAY JOE!</h1>
 </body>
 
 </html>
