@@ -1,0 +1,49 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="284.984" y1="758" x2="284.984" y2="179" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c21e42"/>
+      <stop offset="1" stop-color="#e14435"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="759" cy="665" r="226.064" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f26137"/>
+      <stop offset="1" stop-color="#cc2029"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="640" y1="627" x2="640" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8ac59"/>
+      <stop offset="0.229" stop-color="#f8ac59"/>
+      <stop offset="1" stop-color="#f65e30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="606.5" y1="757" x2="606.5" y2="368" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8ac59"/>
+      <stop offset="0.005" stop-color="#f8ac59"/>
+      <stop offset="1" stop-color="#d72f2f"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M24,611c5.007-1.566,391-432,391-431L538,383l8,375S18.993,612.566,24,611Z"/>
+  <path class="cls-2" d="M974,878L544,757,865,452Z"/>
+  <path class="cls-3" d="M865.5,453L782,122,415,180,684,626"/>
+  <path class="cls-4" d="M545,758L528.5,368m0,0L684,626,546,758Z"/>
+</svg>
